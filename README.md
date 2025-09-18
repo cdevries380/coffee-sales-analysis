@@ -8,9 +8,9 @@ The goal is to uncover patterns in customer behavior and sales trends that could
 ## Data Cleaning
 Before starting the analysis, I performed basic data cleaning steps to make sure the dataset was ready:
 
-- **Checked for duplicates** and confirmed none remained.  
-- **Identified and removed null values** (only 2 rows with missing data, which were deleted).  
-- **Verified no empty rows or columns** remained after cleaning.  
+- Checked for duplicates and confirmed none remained.  
+- Identified and removed null values (only 2 rows with missing data, which were deleted).  
+- Verified no empty rows or columns remained after cleaning.  
 - Confirmed the dataset is consistent and ready for analysis.
 
 ---
