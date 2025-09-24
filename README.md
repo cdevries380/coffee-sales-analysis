@@ -20,25 +20,11 @@ Before starting the analysis, I performed basic data cleaning steps to make sure
 
 ## Planned Analysis
 
-### 1. Sales by Hour of the Day
-
-Using SQL, I extracted the hour from each sale’s timestamp to see what times of day customers buy the most coffee.
-
-**Visualization:**  
-
-![Total Coffee Sales by Hour](images/sales_by_hour_line.png)
-
-The line graph shows the sales trend across the entire year by hour of the day.  
-Coffee sales peak a little over 10k at **10 AM**, drop off slightly afterward, and then rise again to around 9k at **4 PM**.  
-This helps inform general staffing needs, as the business would require the most staff during these peak hours.
-
----
-
-### 2. Coffee Sales by Beverage (Pie Chart)
+### 1. Coffee Sales by Beverage (Pie Chart)
 
 To explore which drinks sell the most, I created a **pie chart** showing the percentage of total sales for each coffee beverage.
 
-![Coffee Sales by Beverage](images/sales_by_hour.png)
+![Coffee Sales by Beverage](images/Annual%20Coffee%20Sales_%20Which%20Drinks%20Sell%20the%20Most_.png)
 
 The chart shows that **Lattes are the top-selling drink**, followed closely by **Americanos with milk**.  
 This insight highlights opportunities to:
@@ -47,6 +33,20 @@ This insight highlights opportunities to:
 - **Offer special promotions on Lattes** to boost sales further  
 
 By understanding which drinks dominate sales, the business can better plan marketing campaigns, manage inventory, and create bundles that appeal to customers.
+
+---
+
+### 2. Sales by Hour of the Day (Line Graph)
+
+Using SQL, I extracted the hour from each sale’s timestamp to see what times of day customers buy the most coffee.
+
+**Visualization:**  
+
+![Total Coffee Sales by Hour](images/sales_by_hour.png)
+
+The line graph shows the sales trend across the entire year by hour of the day.  
+Coffee sales peak a little over 10k at **10 AM**, drop off slightly afterward, and then rise again to around 9k at **4 PM**.  
+This helps inform general staffing needs, as the business would require the most staff during these peak hours.
 
 ---
 
