@@ -1,8 +1,6 @@
 # Coffee Sales Analysis
 
-This project analyzes coffee sales data using SQL and simple visualizations in Google Sheets.  
-The goal is to uncover patterns in customer behavior and sales trends that could help inform business decisions.
-
+This project analyzes coffee sales data I retrieved from Kaggle. Based on the data available, I think it would be helpful as a business owner to know sales trends across the whole year to identify the busiest times of the day in general. In addition, the data includes sales amounts for 8 distinct beverage types. Knowing which beverages sell the most could help inform decisions on promotions and product inventory. 
 ## Data Cleaning
 
 Before starting the analysis, I performed basic data cleaning steps to make sure the dataset was ready:
@@ -50,9 +48,9 @@ This helps inform general staffing needs, as the business would require the most
 
 ---
 
-## Next Steps
+## Conclusion
 
-- Finalize any additional analysis.  
-- Run SQL queries and export results.  
-- Create further charts in Google Sheets.  
-- Add insights and conclusions based on the findings.
+This analysis provided insights into both what customers are buying and when they are buying it. Lattes and Americanos with milk drive the highest percentage of sales, making them key products for promotions, bundling, and inventory planning. Sales trends by hour highlight peak demand around 10 AM and 4 PM, which can guide staffing and scheduling decisions.
+
+By combining product-level insights with time-based trends, coffee shop owners can make more informed choices on marketing, staffing, and inventory management, ultimately increasing efficiency and revenue.
+
