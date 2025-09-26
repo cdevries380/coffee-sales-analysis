@@ -16,7 +16,7 @@ Before starting the analysis, I performed basic data cleaning steps to make sure
 - **Google Sheets** → to create simple, clear visualizations from query results.  
 - **GitHub** → to document the process and share the project.
 
-## Planned Analysis
+##  Analysis
 
 ### 1. Coffee Sales by Beverage (Pie Chart)
 
