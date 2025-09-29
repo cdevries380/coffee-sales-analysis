@@ -52,5 +52,5 @@ This helps inform general staffing needs, as the business would require the most
 
 This analysis provided insights into both what customers are buying and when they are buying it. Lattes and Americanos with milk drive the highest percentage of sales, making them key products for promotions, bundling, and inventory planning. Sales trends by hour highlight peak demand around 10 AM and 4 PM, which can guide staffing and scheduling decisions.
 
-By combining product-level insights with time-based trends, coffee shop owners can make more informed choices on marketing, staffing, and inventory management, ultimately increasing efficiency and revenue.
+
 
