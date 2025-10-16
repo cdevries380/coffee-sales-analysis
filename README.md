@@ -14,7 +14,6 @@ Before starting the analysis, I performed basic data cleaning steps to make sure
 
 - **SQL** → to query and analyze the raw data.  
 - **Google Sheets** → to create simple, clear visualizations from query results.  
-- **GitHub** → to document the process and share the project.
 
 ##  Analysis
 
