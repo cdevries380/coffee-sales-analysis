@@ -1,7 +1,7 @@
 
 ## **Ask**
 
-The goal of this project is to understand **coffee sales trends across a full year** to help a business owner make informed decisions about:
+The goal of this project is to understand the kind of data we would need to help one operate a coffee shop efficiently. If I were in the shoes of a coffee shop owner, I would mainly like to know:
 
 - Which beverages sell the most  
 - What times of day are the busiest  
@@ -10,6 +10,7 @@ Key questions:
 
 1. *Which coffee beverages generate the highest sales?*  
 2. *What hours of the day have the highest customer demand?*
+
 
 ---
 
