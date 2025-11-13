@@ -1,55 +1,108 @@
-# Coffee Sales Analysis
+# Coffee Sales Analysis  
+*A Google-style Case Study (Ask → Prepare → Process → Analyze → Share → Act)*
 
-This project analyzes coffee sales data I retrieved from Kaggle. Based on the data available, I think it would be helpful as a business owner to know sales trends across the whole year to identify the busiest times of the day in general. In addition, the data includes sales amounts for 8 distinct beverage types. Knowing which beverages sell the most could help inform decisions on promotions and product inventory. 
-## Data Cleaning
+## **Ask**
 
-Before starting the analysis, I performed basic data cleaning steps to make sure the dataset was ready:
+The goal of this project is to understand **coffee sales trends across a full year** to help a business owner make informed decisions about:
 
-- Checked for duplicates and confirmed none remained.  
-- Identified and removed null values (only 2 rows with missing data, which were deleted).  
-- Verified no empty rows or columns remained after cleaning.  
-- Confirmed the dataset is consistent and ready for analysis.
+- Which beverages sell the most  
+- What times of day are the busiest  
 
-## Tools Used
+Key questions:
 
-- **SQL** → to query and analyze the raw data.  
-- **Google Sheets** → to create simple, clear visualizations from query results.  
+1. *Which coffee beverages generate the highest sales?*  
+2. *What hours of the day have the highest customer demand?*
 
-##  Analysis
+---
 
-### 1. Coffee Sales by Beverage (Pie Chart)
+## **Prepare**
 
-To explore which drinks sell the most, I created a **pie chart** showing the percentage of total sales for each coffee beverage.
+The dataset was retrieved from **Kaggle** and includes:
+
+- Timestamps for each transaction  
+- Sales amounts  
+- 8 distinct beverage types  
+
+**Tools Used**
+
+- **SQL** — for analyzing the raw data  
+- **Google Sheets** — for creating visualizations  
+
+---
+
+## **Process**
+
+Before analyzing the data, I completed the following cleaning steps:
+
+- Checked for duplicates → **none remained**  
+- Removed null values → **2 rows deleted**  
+- Ensured no empty rows/columns  
+- Verified consistent formatting  
+
+### Data Preparation Using SQL
+
+- Extracted the **hour** from each timestamp  
+- Aggregated sales by **beverage type**  
+- Aggregated sales totals by **hour of the day**
+
+The dataset was then ready for visualization.
+
+---
+
+## **Analyze**
+
+### **1. Coffee Sales by Beverage**
+
+I aggregated total sales by beverage type and created a pie chart.
 
 ![Coffee Sales by Beverage](images/Coffee_Sales_by_Beverage.png)
 
-The chart shows that **Lattes are the top-selling drink**, followed closely by **Americanos with milk**.  
-This insight highlights opportunities to:
+**Key Insights**
 
-- **Pair Lattes with pastries** to increase transaction value  
-- **Offer special promotions on Lattes** to boost sales further  
-
-By understanding which drinks dominate sales, the business can better plan marketing campaigns, manage inventory, and create bundles that appeal to customers.
+- **Lattes** are the top-selling beverage  
+- **Americanos with milk** are close behind  
+- These items are ideal for promotions, bundles, and inventory prioritization  
 
 ---
 
-### 2. Sales by Hour of the Day (Line Graph)
+### **2. Total Sales by Hour of the Day**
 
-Using SQL, I extracted the hour from each sale’s timestamp to see what times of day customers buy the most coffee.
-
-**Visualization:**  
+Using SQL, I extracted hourly sales patterns and visualized them in Google Sheets.
 
 ![Total Coffee Sales by Hour](images/sales_by_hour.png)
 
-The line graph shows the sales trend across the entire year by hour of the day.  
-Coffee sales peak a little over 10k at **10 AM**, drop off slightly afterward, and then rise again to around 9k at **4 PM**.  
-This helps inform general staffing needs, as the business would require the most staff during these peak hours.
+**Key Insights**
+
+- Peak sales occur at **10 AM** (over **10k**)  
+- A secondary peak occurs at **4 PM** (~9k)  
+- These patterns are useful for staffing and preparation planning  
 
 ---
 
-## Conclusion
+## **Share**
 
-This analysis provided insights into both what customers are buying and when they are buying it. Lattes and Americanos with milk drive the highest percentage of sales, making them key products for promotions, bundling, and inventory planning. Sales trends by hour highlight peak demand around 10 AM and 4 PM, which can guide staffing and scheduling decisions.
+To communicate findings clearly:
 
+- Visualizations were created in Google Sheets  
+- The project was documented in this GitHub README  
+- Each insight is paired with a visual and practical explanation  
+
+---
+
+## **Act**
+
+Based on the analysis, a coffee shop could:
+
+### **Product Strategy**
+- Promote top-selling drinks  
+- Bundle Lattes with pastries  
+- Stock inventory around the most popular beverages  
+
+### **Operational Strategy**
+- Increase staffing around **10 AM** and **4 PM**  
+- Brew ahead during peak windows  
+- Use slow hours for restocking and prep  
+
+These insights can help improve sales strategy, staffing efficiency, and customer experience.
 
 
