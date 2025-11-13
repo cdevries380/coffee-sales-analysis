@@ -1,5 +1,3 @@
-# Coffee Sales Analysis  
-*A Google-style Case Study (Ask → Prepare → Process → Analyze → Share → Act)*
 
 ## **Ask**
 
