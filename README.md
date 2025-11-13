@@ -21,7 +21,7 @@ Before starting the analysis, I performed basic data cleaning steps to make sure
 
 To explore which drinks sell the most, I created a **pie chart** showing the percentage of total sales for each coffee beverage.
 
-![Coffee Sales by Beverage](images/Annual%20Coffee%20Sales_%20Which%20Drinks%20Sell%20the%20Most_.png)
+![Coffee Sales by Beverage](images/Coffee_Sales_by_Beverage.png)
 
 The chart shows that **Lattes are the top-selling drink**, followed closely by **Americanos with milk**.  
 This insight highlights opportunities to:
