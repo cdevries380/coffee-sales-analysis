@@ -1,7 +1,9 @@
+# Coffee Sales Analysis  
+*A Google-style Case Study (Ask → Prepare → Process → Analyze → Share/Act)*
 
 ## **Ask**
 
-The goal of this project is to understand the kind of data we would need to help one operate a coffee shop efficiently. If I were in the shoes of a coffee shop owner, I would mainly like to know:
+The goal of this project is to understand **coffee sales trends across a full year** to help a business owner make informed decisions about:
 
 - Which beverages sell the most  
 - What times of day are the busiest  
@@ -10,7 +12,6 @@ Key questions:
 
 1. *Which coffee beverages generate the highest sales?*  
 2. *What hours of the day have the highest customer demand?*
-
 
 ---
 
@@ -42,7 +43,7 @@ Before analyzing the data, I completed the following cleaning steps:
 
 - Extracted the **hour** from each timestamp  
 - Aggregated sales by **beverage type**  
-- Aggregated sales totals by **hour of the day**
+- Aggregated total sales by **hour of the day**
 
 The dataset was then ready for visualization.
 
@@ -59,49 +60,34 @@ I aggregated total sales by beverage type and created a pie chart.
 **Key Insights**
 
 - **Lattes** are the top-selling beverage  
-- **Americanos with milk** are close behind  
-- These items are ideal for promotions, bundles, and inventory prioritization  
+- **Americanos with milk** follow closely  
+- These drinks are strong candidates for promotions and product bundling  
 
 ---
 
 ### **2. Total Sales by Hour of the Day**
 
-Using SQL, I extracted hourly sales patterns and visualized them in Google Sheets.
+Using SQL, I extracted hourly sales trends and visualized them in Google Sheets.
 
 ![Total Coffee Sales by Hour](images/sales_by_hour.png)
 
 **Key Insights**
 
 - Peak sales occur at **10 AM** (over **10k**)  
-- A secondary peak occurs at **4 PM** (~9k)  
-- These patterns are useful for staffing and preparation planning  
+- A secondary afternoon peak appears at **4 PM** (~9k)  
+- These patterns highlight critical hours for staffing and preparation
 
 ---
 
-## **Share**
+## **Share / Act**
 
-To communicate findings clearly:
-
-- Visualizations were created in Google Sheets  
-- The project was documented in this GitHub README  
-- Each insight is paired with a visual and practical explanation  
-
----
-
-## **Act**
-
+I compiled the visualizations and insights into this GitHub README to clearly communicate the findings.  
 Based on the analysis, a coffee shop could:
 
-### **Product Strategy**
-- Promote top-selling drinks  
-- Bundle Lattes with pastries  
-- Stock inventory around the most popular beverages  
+- Focus inventory planning on top-selling beverages like **Lattes** and **Americanos with milk**  
+- Offer targeted promotions or pair these drinks with pastries to increase revenue  
+- Schedule additional staff during the busiest hours (**10 AM** and **4 PM**)  
+- Use slower hours for prep, restocking, and equipment maintenance  
 
-### **Operational Strategy**
-- Increase staffing around **10 AM** and **4 PM**  
-- Brew ahead during peak windows  
-- Use slow hours for restocking and prep  
-
-These insights can help improve sales strategy, staffing efficiency, and customer experience.
-
+These actions can directly improve efficiency, customer experience, and sales performance.
 
