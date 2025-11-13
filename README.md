@@ -80,13 +80,11 @@ Using SQL, I extracted hourly sales trends and visualized them in Google Sheets.
 
 ## **Share / Act**
 
-I compiled the visualizations and insights into this GitHub README to clearly communicate the findings.  
-Based on the analysis, a coffee shop could:
+Here's what I would do with these findings if I were in the shoes of a coffee shop owner:
 
-- Focus inventory planning on top-selling beverages like **Lattes** and **Americanos with milk**  
+- Focus inventory planning on top-selling beverages like **Lattes** and **Americanos with milk**
 - Offer targeted promotions or pair these drinks with pastries to increase revenue  
 - Schedule additional staff during the busiest hours (**10 AM** and **4 PM**)  
 - Use slower hours for prep, restocking, and equipment maintenance  
 
-These actions can directly improve efficiency, customer experience, and sales performance.
 
